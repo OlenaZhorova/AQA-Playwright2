@@ -36,6 +36,9 @@ const config = defineConfig({
       password: 'welcome2qauto',
     },
     trace: 'on-first-retry',
+    launchOptions: {
+      slowMo: 400
+    }
   },
 
   /* Configure projects for major browsers */
